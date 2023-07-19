@@ -1,0 +1,210 @@
+/* ! */
+
+.modal_blok {
+  display: none;
+}
+
+.edit_id_input {
+  display: none;
+}
+
+/* ! */
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.form_post {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+  align-items: center;
+  margin-top: 10%;
+  background: linear-gradient(
+    273.38deg,
+    rgb(237, 198, 138) 7.24%,
+    rgb(225, 167, 130) 56.44%,
+    rgb(215, 132, 120) 92.81%
+  );
+  padding: 100px;
+  border-radius: 10px;
+}
+.open_modal_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.modal_open_btn {
+  width: 20%;
+  height: 50px;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.modal_open_btn:hover {
+  background: linear-gradient(
+    273.38deg,
+    rgb(237, 198, 138) 7.24%,
+    rgb(225, 167, 130) 56.44%,
+    rgb(215, 132, 120) 92.81%
+  );
+  border: none;
+  color: white;
+}
+
+.form_post input {
+  width: 560px;
+  height: 50px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 23px;
+  color: black;
+}
+
+.form_post button {
+  margin: auto;
+  width: 560px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-align: center;
+  background-color: white;
+  margin-left: -62px;
+}
+
+.form_post button:hover {
+  background: linear-gradient(
+    273.38deg,
+    rgb(237, 198, 138) 7.24%,
+    rgb(225, 167, 130) 56.44%,
+    rgb(215, 132, 120) 92.81%
+  );
+  border: none;
+  color: white;
+}
+
+.modal_blok {
+  width: 50%;
+  height: 356px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+  align-items: center;
+  margin-top: 10%;
+  background: linear-gradient(
+    273.38deg,
+    rgb(237, 198, 138) 7.24%,
+    rgb(225, 167, 130) 56.44%,
+    rgb(215, 132, 120) 92.81%
+  );
+  padding: 100px;
+  border-radius: 10px;
+  padding-top: 60px;
+}
+
+.modal_blok input {
+  width: 560px;
+  height: 50px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 23px;
+  color: black;
+}
+
+.modal_blok button {
+  margin: auto;
+  width: 560px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-align: center;
+  background-color: white;
+  /* margin-left: -62px; */
+}
+
+.modal_blok button:hover {
+  background: linear-gradient(
+    273.38deg,
+    rgb(237, 198, 138) 7.24%,
+    rgb(225, 167, 130) 56.44%,
+    rgb(215, 132, 120) 92.81%
+  );
+  border: none;
+  color: white;
+}
+
+.card {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_item {
+  margin: 40px;
+  font-size: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.card_item button {
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+.card_item button:hover {
+  background: linear-gradient(
+    273.38deg,
+    rgb(237, 198, 138) 7.24%,
+    rgb(225, 167, 130) 56.44%,
+    rgb(215, 132, 120) 92.81%
+  );
+  border: none;
+  color: white;
+}
